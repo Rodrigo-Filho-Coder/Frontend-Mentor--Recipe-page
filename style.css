@@ -80,7 +80,7 @@ ul li::marker {
     .body {
         width: 90%;
         padding: 15px;
-        margin-left: 25%; /* Ensure it's centered */
+        margin: 20px auto; /* Ensure it's centered */
     }
 
     table {
