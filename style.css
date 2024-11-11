@@ -1,6 +1,6 @@
 html {
     background-color: #FFEBD4;
-    font-family: 'Outfit', sans-serif; /* Define Outfit como a fonte padrão */
+    font-family: 'Outfit', sans-serif;
 }
 
 p {
@@ -23,10 +23,10 @@ p {
 .body {
     background-color: white;
     border-radius: 20px;
-    width: 90%; /* Ajuste para mobile */
-    margin: 20px auto; /* Centraliza o container */
+    width: 90%;
+    margin: 20px auto;
     padding: 20px;
-    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
+    box-sizing: border-box;
 }
 
 .prep-title {
@@ -38,7 +38,7 @@ p {
     padding: 10px;
     border-radius: 10px;
     background-color: hsl(330, 100%, 98%);
-    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
+    box-sizing: border-box;
 }
 
 .om-img {
@@ -60,7 +60,7 @@ td {
 }
 
 tr:last-child td {
-    border-bottom: none; /* Remove a borda inferior da última linha */
+    border-bottom: none; 
 }
 
 .red-title {
@@ -68,19 +68,19 @@ tr:last-child td {
 }
 
 ol li::marker {
-    color: #AE445A; /* Altere para a cor desejada */
+    color: #AE445A; 
 }
 
 ul li::marker {
-    color: #AE445A; /* Altere para a cor desejada */
+    color: #AE445A; 
 }
 
-/* Media query para dispositivos móveis (375px) */
+
 @media (max-width: 375px) {
     .body {
         width: 90%;
         padding: 15px;
-        margin: 20px auto; /* Garante que esteja centralizado */
+        margin: 20px auto;
     }
 
     table {
@@ -89,7 +89,7 @@ ul li::marker {
     }
 }
 
-/* Media query para dispositivos desktop (1440px) */
+
 @media (min-width: 1440px) {
     .body {
         width: 50%;
