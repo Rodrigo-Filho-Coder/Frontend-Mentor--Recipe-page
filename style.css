@@ -34,10 +34,11 @@ p {
     color: hsl(332, 51%, 32%);
 }
 .prep-time {
-    width: calc(100% - 80px);
+    width: 100%
     padding: 10px;
     border-radius: 10px;    
     background-color: hsl(330, 100%, 98%);
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
 }
 
 .om-img {
