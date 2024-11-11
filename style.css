@@ -1,6 +1,6 @@
 html {
     background-color: #FFEBD4;
-    font-family: 'Outfit', sans-serif; /* Set Outfit as the default font */
+    font-family: 'Outfit', sans-serif; /* Define Outfit como a fonte padrão */
 }
 
 p {
@@ -11,32 +11,32 @@ p {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .outfit-p {
+}
+
+.outfit-p {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400, 600, 700;
     font-style: normal;
-  }
+}
 
 .body {
     background-color: white;
     border-radius: 20px;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 50px;
-    padding: 30px;
+    width: 90%; /* Ajuste para mobile */
+    margin: 20px auto; /* Centraliza o container */
+    padding: 20px;
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
 }
 
 .prep-title {
     color: hsl(332, 51%, 32%);
 }
+
 .prep-time {
-    width: 100%
+    width: 100%;
     padding: 10px;
-    border-radius: 10px;    
+    border-radius: 10px;
     background-color: hsl(330, 100%, 98%);
     box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
 }
@@ -49,8 +49,8 @@ p {
 }
 
 table {
-    width: calc(100% - 80px);
-    margin: 20px;
+    width: 100%;
+    margin: 20px 0;
     border-collapse: collapse;
 }
 
@@ -75,12 +75,12 @@ ul li::marker {
     color: #AE445A; /* Altere para a cor desejada */
 }
 
-/* Media query for mobile devices (375px) */
+/* Media query para dispositivos móveis (375px) */
 @media (max-width: 375px) {
     .body {
         width: 90%;
         padding: 15px;
-        margin: 20px auto; /* Ensure it's centered */
+        margin: 20px auto; /* Garante que esteja centralizado */
     }
 
     table {
@@ -89,7 +89,7 @@ ul li::marker {
     }
 }
 
-/* Media query for desktop devices (1440px) */
+/* Media query para dispositivos desktop (1440px) */
 @media (min-width: 1440px) {
     .body {
         width: 50%;
@@ -102,4 +102,3 @@ ul li::marker {
         margin: 20px;
     }
 }
-
